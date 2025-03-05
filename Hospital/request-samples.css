@@ -1,0 +1,10 @@
+body {
+    padding: 20px;
+    background: linear-gradient(white,red);
+    background-repeat: no-repeat;
+  }
+  .table{
+    background: linear-gradient(#7ac20b,#f9dd00,#ff0000);
+    
+  }
+  
