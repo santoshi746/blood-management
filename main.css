@@ -1,0 +1,23 @@
+.img-one{
+    height: 500px !important;
+}
+marquee{
+    height: 500px !important;
+}
+marquee>h1{
+    display: inline;
+}
+.image-two{
+    width: 430px;
+    height: 200px;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  margin-top: 100px;
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }

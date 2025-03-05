@@ -1,0 +1,31 @@
+<?php
+    if(mysqli_num_rows($res)>0){
+      while($row = mysqli_fetch_array($res)){
+        ?>
+         <tr>
+            <td>
+              <?php echo $row['Id'];?>
+            </td>
+            <td>
+              <?php echo $row['Doctor_name'];?>
+            </td>
+            <td>
+              <?php echo $row['Donor_name'];?>
+            </td>
+            <td>
+              <?php echo $row['mobile'];?>
+            </td>
+            <td>
+              <?php echo $row['blood'];?>
+            </td>
+            <td>
+            <form action="blood-delete.php">
+                <input type="hidden" name="abc" value="<?php echo $row['Id']; ?>">
+                <input type="submit" value="Delete" name="delete" class="btn btn-danger my-1">
+            </form>
+            </td>
+          </tr>
+    <?php
+      }
+    }
+    ?>
