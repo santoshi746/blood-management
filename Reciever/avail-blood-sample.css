@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(white,red); 
+    background-repeat: no-repeat;
+}
+.card{
+    background: linear-gradient(#7ac20b,#f9dd00,#ff0000);
+    margin: 10px;
+    color: white;
+}

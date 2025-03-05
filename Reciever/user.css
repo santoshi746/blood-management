@@ -1,0 +1,16 @@
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 125px;
+    background: linear-gradient(#7ac20b,#f9dd00,#ff0000);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 125px;
+  }
+  body{
+    background:linear-gradient(white,red);
+    background-repeat: no-repeat;
+
+  }
